@@ -1,0 +1,19 @@
+.form {
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(to bottom right, rgb(165, 165, 248), pink);
+    &__unc {
+        width: 100%;
+        background: none;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: 1s;
+    }
+    &__unc:hover {
+        background-color: green;
+        cursor: pointer;
+    }
+}
+
+.dataset {
+    margin: auto;
+}

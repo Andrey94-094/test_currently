@@ -1,0 +1,12 @@
+.Setting {
+    padding: 30px;
+    background: linear-gradient(to bottom right, rgb(165, 165, 248), pink);
+    font-size: 25px;
+    &__text {
+        text-align: center;
+        padding: 10px;
+    }
+    &__block {
+        // display: flex;
+    }
+}
